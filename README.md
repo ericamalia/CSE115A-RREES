@@ -5,16 +5,24 @@
 //
 * [Sprint 1 Plan](https://docs.google.com/document/d/1KJy57nsOGWPGx-Cn27PtIi7qVKyR_-FxMq45GG2_Hkc/edit)
 * [Sprint 1 Postmortem](https://docs.google.com/document/d/15PB8n0U_OGkKhotY7wEONobtrsowrKSwef7fJfUD9gk/edit)
+
 //
+
 * [Sprint 2 Plan](https://docs.google.com/document/d/1Sxi-NsB56zNBmX0mCW7MpW0KsDk6t0s6FDvgV3da3hc/edit)
 * [Sprint 2 Postmortem](https://docs.google.com/document/d/1i4mvFluj56m2UKIAaQQwEKjZSd6hRV-78pp6wEOU39A/edit)
-//  
+
+//
+
 * [Sprint 3 Plan](https://docs.google.com/document/d/1eWfYq-bzw5_vpFY6bO8KKEK-eRd2f6BOFJpW89xHhH8/edit)
 * [Sprint 3 Postmortem](https://docs.google.com/document/d/17r34Xe9nxGb4XQnjhMeiussYlRb8hX-2UXS3zM510cg/edit)
-//  
+
+//
+
 * [Sprint 4 Plan](https://docs.google.com/document/d/1MnECYAfIRIT1Zms3I8IVS_9QyM8jH3yQZrCjpBPjwtA/edit)
 * [Sprint 4 Postmortem]
+
 //
+
 * [Final Presentation Slides]
 
 
