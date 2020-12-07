@@ -3,7 +3,6 @@
 * [Release Plan Doc](https://docs.google.com/document/d/1Onq-bfWAmu75xCWyqnOhpCPokFJoNZfsXZQaxLq7Ek8/edit?usp=sharing)
 * [Initial Presentation Slides](https://docs.google.com/presentation/d/1VxtQIAU7xsOZ3iA3EPQStSUpOyp5C8wCYASGP9Hb9nA/edit#slide=id.ga1ab41d16f_2_75)
 
-//
 
 * [Sprint 1 Plan](https://docs.google.com/document/d/1KJy57nsOGWPGx-Cn27PtIi7qVKyR_-FxMq45GG2_Hkc/edit)
 * [Sprint 1 Postmortem](https://docs.google.com/document/d/15PB8n0U_OGkKhotY7wEONobtrsowrKSwef7fJfUD9gk/edit)
