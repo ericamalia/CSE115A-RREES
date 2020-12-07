@@ -1,0 +1,1463 @@
+{
+	"info": {
+		"_postman_id": "12d73375-1079-4135-8f2c-baf94e1e8461",
+		"name": "Intrusive Endpoints Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:5000/api/device/modify/",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"account_id\": \"auth0|5f99c7729991bd0068d1d735\",\n    \"pin\": \"TEST\",\n    \"country\": \"United States\",\n    \"city\": \"Santa Cruz\",\n    \"state\": \"California\",  \n    \"street\": \"1420 Bay St\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/device/modify/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"modify",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/device/modify/",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"account_id\": \"auth0|5f99c7729991bd0068d1d735\",\n    \"pin\": \"TEST\",\n    \"country\": \"United States\",\n    \"state\": \"California\",\n    \"street\": \"1420 Bay St\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/device/modify/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"modify",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/device/modify",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"account_id\": \"auth0|5f99c7729991bd0068d1d735\",\n    \"pin\": \"TEST\",\n    \"country\": \"United States\",\n    \"state\": \"California\",\n    \"street\": \"1420 Bay St\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/device/modify",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"modify"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/6969/auth0|5f99c7729991bd0068d1d735",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/6969/auth0|5f99c7729991bd0068d1d735",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"6969",
+						"auth0|5f99c7729991bd0068d1d735"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/FAKE/auth0|5f99c7729991bd0068d1d735",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/FAKE/auth0|5f99c7729991bd0068d1d735",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"FAKE",
+						"auth0|5f99c7729991bd0068d1d735"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/FAKE/auth0|5f99c7729991bd0068d1d735\n",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/FAKE/auth0|5f99c7729991bd0068d1d735\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"FAKE",
+						"auth0|5f99c7729991bd0068d1d735\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/FAKE/auth0|5f99c7729991bd0068d1d735\n",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/FAKE/auth0|5f99c7729991bd0068d1d735\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"FAKE",
+						"auth0|5f99c7729991bd0068d1d735\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/FAKE/auth0|5f99c7729991bd0068d1d735\n",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/FAKE/auth0|5f99c7729991bd0068d1d735\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"FAKE",
+						"auth0|5f99c7729991bd0068d1d735\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/FAKE/5f99c7729991bd0068d1d735\n",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/FAKE/5f99c7729991bd0068d1d735\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"FAKE",
+						"5f99c7729991bd0068d1d735\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/FAKE/5f99c7729991bd0068d1d735\n",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/FAKE/5f99c7729991bd0068d1d735\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"FAKE",
+						"5f99c7729991bd0068d1d735\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/FAKE/auth0|5f99c7729991bd0068d1d735\n",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/FAKE/auth0|5f99c7729991bd0068d1d735\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"FAKE",
+						"auth0|5f99c7729991bd0068d1d735\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/FAKE/5f99c7729991bd0068d1d735",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/FAKE/5f99c7729991bd0068d1d735",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"FAKE",
+						"5f99c7729991bd0068d1d735"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/FAKE/5f99c7729991bd0068d1d735",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\": \"auth0|5f99c7729991bd0068d1d735\",\n    \"email\":\"andrew.thach123@gmail.com\",\n    \"code\":826862\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/FAKE/5f99c7729991bd0068d1d735",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"FAKE",
+						"5f99c7729991bd0068d1d735"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/account/owner/remove/FAKE/5f99c7729991bd0068d1d735",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\": \"auth0|5f99c7729991bd0068d1d735\",\n    \"email\":\"andrew.thach123@gmail.com\",\n    \"code\":826862\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/account/owner/remove/FAKE/5f99c7729991bd0068d1d735",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"owner",
+						"remove",
+						"FAKE",
+						"5f99c7729991bd0068d1d735"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/notification/reset/email",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\": \"auth0|5f99c7729991bd0068d1d735\",\n    \"email\":\"andrew.thach123@gmail.com\",\n    \"code\":826862\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/notification/reset/email",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notification",
+						"reset",
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:5000/api/notification/verify/email",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\": \"auth0|5f99c7729991bd0068d1d735\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/notification/verify/email",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notification",
+						"verify",
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/remotes/origin/flask-manage-account",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\": \"auth0|5f99c7729991bd0068d1d735\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/remotes/origin/flask-manage-account",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"remotes",
+						"origin",
+						"flask-manage-account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/remotes/origin/flask-manage-account",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"account_id\": \"auth0|5f99c7729991bd0068d1d735\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/remotes/origin/flask-manage-account",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"remotes",
+						"origin",
+						"flask-manage-account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/account/subs/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"account_id\": \"auth0|5e8d385249c3bb0c12952240\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/account/subs/",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"subs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/account/subs/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"account_id\": \"auth0|5f99c7729991bd0068d1d735\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/account/subs/",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"subs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/account/subs/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"account_id\": \"auth0|5e8d385249c3bb0c12952240\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/account/subs/",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"subs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/device/pin/DOVE",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\":\"auth0|5f99c7729991bd0068d1d735\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/device/pin/DOVE",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"pin",
+						"DOVE"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/notification/verify/email",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\":\"auth0|5f99c7729991bd0068d1d735\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/notification/verify/email",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notification",
+						"verify",
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/notification/verify/email",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\":\"auth0|5f99c7729991bd0068d1d735\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/notification/verify/email",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notification",
+						"verify",
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/notification/verify/email",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\":\"auth0|5f99c7729991bd0068d1d735\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/notification/verify/email",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notification",
+						"verify",
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/notification/verify/email",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\":\"auth0|5f99c7729991bd0068d1d735\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/notification/verify/email",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notification",
+						"verify",
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/notification/verify/email",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\":\"auth0|5f99c7729991bd0068d1d735\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/notification/verify/email",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notification",
+						"verify",
+						"email"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/notification/unsubscribe/NATE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/notification/unsubscribe/NATE",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notification",
+						"unsubscribe",
+						"NATE"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/notification/unsubscribe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/notification/unsubscribe",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"notification",
+						"unsubscribe"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/noticiation/unsubscribe/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/api/noticiation/unsubscribe/",
+					"path": [
+						"api",
+						"noticiation",
+						"unsubscribe",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/noticiation/unsubscribe/<NATE>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/api/noticiation/unsubscribe/<NATE>",
+					"path": [
+						"api",
+						"noticiation",
+						"unsubscribe",
+						"<NATE>"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/device/register/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/device/register/",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"register",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/device/register",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/device/register",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/device/register",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/device/register",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/account/subs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/account/subs",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"subs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/account/subs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/account/subs",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"subs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/account/subs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/account/subs",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"subs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/account/subs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/account/subs",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"subs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/account/subs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/account/subs",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"account",
+						"subs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/device/pin/<NATE:pin>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/device/pin/<NATE:pin>",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"pin",
+						"<NATE:pin>"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/device/pin/<string:pin>",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/device/pin/<string:pin>",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"pin",
+						"<string:pin>"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/device/history/single/NATE/1580961485",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/device/history/single/NATE/1580961485",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"history",
+						"single",
+						"NATE",
+						"1580961485"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/device/history/single/NATE/1580961484",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/device/history/single/NATE/1580961484",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"history",
+						"single",
+						"NATE",
+						"1580961484"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/device/outage/NATE ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/device/outage/NATE ",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"outage",
+						"NATE "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://seadsvault2.soe.ucsc.edu:5000/api/device/outage/NATE ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://seadsvault2.soe.ucsc.edu:5000/api/device/outage/NATE ",
+					"protocol": "http",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"device",
+						"outage",
+						"NATE "
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "@app.route(“api/device/pin/<string:pin>”, methods=[‘GET’])\n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "@app.route(“api/device/pin/<string:pin>”, methods=[‘GET’])\n",
+					"auth": {
+						"user": ""
+					},
+					"host": [
+						"app",
+						"route(“api"
+					],
+					"path": [
+						"device",
+						"pin",
+						"<string:pin>”, methods=[‘GET’])\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/location",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/location",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/location",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/location",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/location",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/location",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "seadsvault2.soe.ucsc.edu:5000/api/location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "seadsvault2.soe.ucsc.edu:5000/api/location",
+					"host": [
+						"seadsvault2",
+						"soe",
+						"ucsc",
+						"edu"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"location"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
