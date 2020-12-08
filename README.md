@@ -25,7 +25,7 @@
 
 //
 
-* [Final Presentation Slides]
+* [Final Presentation Slides](https://docs.google.com/presentation/d/1b_Cjfqd7vLcnWQvZ5VI-dCNDDRFxtdzMV2c1kkRccgI/edit?usp=sharing)
 
 
 # Project Metadata 
